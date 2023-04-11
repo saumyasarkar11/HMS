@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 body {
     font-size: .875rem;
+    font-family: 'Noto Sans', sans-serif;
+    padding-bottom: 50px;
   }
   
   .feather {
@@ -12,6 +16,9 @@ body {
    * Sidebar
    */
   
+   #sideBarMenu{
+    font-family: 'Lato', sans-serif;
+  }
   .sidebar {
     position: fixed;
     top: 0;
@@ -43,6 +50,7 @@ body {
   
   .sidebar .nav-link {
     font-weight: 500;
+    font-size: small;
     color: #333;
   }
   
@@ -97,4 +105,24 @@ body {
   .form-control-dark:focus {
     border-color: transparent;
     box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+  }
+
+  tbody{
+    font-size: 12px;
+  }
+
+  thead{
+    font-size: 13px;
+  }
+
+  .form-control{
+    font-size: 14px;
+  }
+
+  .form-select{
+    font-size: 14px;
+  }
+
+  option{
+    font-size: 14px;
   }
