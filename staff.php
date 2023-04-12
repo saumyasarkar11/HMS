@@ -54,7 +54,7 @@ include "includes/sidebar.php";
                                                 <input type="hidden" value="'.$row['staff_id'].'" name="staff_id">
                                                 <button type="submit" class="btn btn-success btn-sm" style="font-size: 12px;" name="staffEdit_btn">Edit</button>
                                             </form>
-                                            <button type="button" class="btn btn-danger btn-sm" style="font-size: 12px;" data-id="'.$row['staff_id'].'" id="deleteStaff">Del</button>
+                                            <button type="button" class="btn btn-danger btn-sm deleteStaff" style="font-size: 12px;" data-id="'.$row['staff_id'].'">Del</button>
                                         <div>
                                     </td>
                                 </tr>  

@@ -132,7 +132,7 @@
     });
 
     //Delete Staff
-    $('#deleteStaff').click(function(){
+    $('.deleteStaff').click(function(){
       const id = $(this).attr("data-id");
       if(confirm("Are you sure you want to delete this staff?")){
         $.ajax({
@@ -145,7 +145,7 @@
             location.reload();
           }
         })
-      }      
+      }    
     })
 
   });

@@ -1,8 +1,12 @@
 <?php
 
-// include ("includes/db.php");
-// echo $db_name;
+// require_once 'vendor/autoload.php';
 
-// echo substr("1996-09-08",2,2);
+// $keyContents = file_get_contents('../../dect_key');
+// $key = \Defuse\Crypto\Key::loadFromAsciiSafeString($keyContents);
+
+// $secret = \Defuse\Crypto\Crypto::encrypt("MSKRH{m!42%H", $key);
+
+// echo $secret;
 
 ?>
